@@ -1,0 +1,49 @@
+.footer {
+    width: 100%;
+    background-color: var(--navbar-bg);
+    border-top: 1px solid var(--border-color);
+    margin-top: 20px;
+}
+
+.footer-container {
+    text-align: center;
+    padding: 20px;
+}
+
+.footer h3 {
+    margin: 0;
+    color: var(--text-color);
+    font-size: 20px;
+}
+
+.footer p {
+    margin: 8px 0;
+    color: var(--main-color);
+    font-size: 24px;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.footer-bottom .icon {
+    color: white;
+    width: 40px;
+    height: 40px;
+    border: 1px solid white;
+    font-size: 25px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-bottom .icon:hover {
+    color: var(--border-color);
+    border-color: var(--border-color);
+    background-color: white;
+    transition: 1s;
+}

@@ -1,0 +1,98 @@
+:root {
+    --navbar-bg: #0f172a;
+    --border-color: #1e293b;
+    --text-color: #ffffff;
+    --main-color: #38bdf8;
+    --main-hover: #0ea5e9;
+    --button-text-dark: #0f172a;
+}
+
+.navbar {
+    width: 100%;
+    background-color: var(--navbar-bg);
+    border-bottom: 1px solid var(--border-color);
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 40px;
+}
+
+.logo {
+    margin: 0;
+    color: var(--text-color);
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.logo span {
+    color: var(--main-color);
+}
+
+.nav-buttons {
+    display: flex;
+    gap: 12px;
+}
+
+.run-btn {
+    padding: 10px 22px;
+    border: none;
+    border-radius: 8px;
+    background-color: var(--main-color);
+    color: var(--button-text-dark);
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.run-btn:hover {
+    background-color: var(--main-hover);
+}
+
+.clear-btn {
+    padding: 10px 22px;
+    border: 1px solid var(--main-color);
+    border-radius: 8px;
+    background-color: transparent;
+    color: var(--main-color);
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.clear-btn:hover {
+    background-color: var(--main-color);
+    color: var(--button-text-dark);
+}
+
+.theme-btn {
+    padding: 10px 12px;
+    border-radius: 8px;
+    border: 1px solid var(--main-color);
+    background: transparent;
+    color: var(--main-color);
+    cursor: pointer;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+}
+
+.theme-btn:hover {
+    background-color: var(--main-color);
+    color: var(--button-text-dark);
+}
